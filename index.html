@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neighborhood map</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+</head>
+
+<body>
+    <header data-bind="css: {'pomegranate-color': trigger}">
+        <i class="fa fa-bars" aria-hidden="true" data-bind="click: clicker, css: {'null-margin': trigger, 'fa-bars': trigger2, 'fa-times': trigger}"></i>
+        <button class="center-button" data-bind=" click: centerMap, css: {'off-canvas-color': trigger}">Center<br>Map</button>
+    </header>
+    <aside class="off-canvas-box" data-bind="css: {'null-margin': trigger}">
+        <div class="title">Sibiu fun places</div>
+        <div class="single-row">
+            <input data-bind="textInput: userInput, valueUpdate:'keyUp'" class="search-field" placeholder="Search for a place!">
+            <button class="filter-div"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <ul class="places-list-restaurants" data-bind="foreach:checkRestaurantItems">
+            <li class="restaurant-list-items" data-bind="text:title, click: listClick"></li>
+        </ul>
+        <ul class="places-list-bars" data-bind="foreach: checkBarItems">
+            <li class="bar-list-items" data-bind="text:title, click:listClick"></li>
+        </ul>
+    </aside>
+
+    <main id="map"></main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--    CDN for Knockout.JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvPrcbPjgQpEHJtG-j1LnPpWfJoAIZy-k&callback=fetchFunction" async defer onerror="gmapsErrorHandling()"></script>
+</body>
+
+</html>

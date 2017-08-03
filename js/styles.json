@@ -1,0 +1,255 @@
+[{
+		"featureType": "administrative",
+		"elementType": "geometry.fill",
+		"stylers": [{
+			"hue": "#005eff"
+		}]
+	},
+	{
+		"featureType": "administrative",
+		"elementType": "labels.text.fill",
+		"stylers": [{
+			"color": "#9097a3"
+		}]
+	},
+	{
+		"featureType": "administrative.locality",
+		"elementType": "labels.text.fill",
+		"stylers": [{
+			"color": "#686e78"
+		}]
+	},
+	{
+		"featureType": "administrative.neighborhood",
+		"elementType": "labels.text.fill",
+		"stylers": [{
+			"color": "#a6adba"
+		}]
+	},
+	{
+		"featureType": "landscape",
+		"elementType": "all",
+		"stylers": [{
+			"color": "#dde4f0"
+		}]
+	},
+	{
+		"featureType": "poi",
+		"elementType": "geometry.fill",
+		"stylers": [{
+				"saturation": "-60"
+			},
+			{
+				"lightness": "25"
+			},
+			{
+				"gamma": "1.00"
+			},
+			{
+				"hue": "#005eff"
+			},
+			{
+				"visibility": "off"
+			}
+		]
+	},
+	{
+		"featureType": "poi.attraction",
+		"elementType": "all",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "poi.business",
+		"elementType": "labels",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "poi.government",
+		"elementType": "all",
+		"stylers": [{
+			"visibility": "on"
+		}]
+	},
+	{
+		"featureType": "poi.government",
+		"elementType": "labels",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "poi.medical",
+		"elementType": "geometry.fill",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "poi.medical",
+		"elementType": "labels",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "poi.park",
+		"elementType": "labels",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "poi.place_of_worship",
+		"elementType": "labels",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "poi.school",
+		"elementType": "all",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "poi.sports_complex",
+		"elementType": "labels",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "road",
+		"elementType": "labels.text.fill",
+		"stylers": [{
+			"color": "#909ca3"
+		}]
+	},
+	{
+		"featureType": "road",
+		"elementType": "labels.icon",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "road.highway",
+		"elementType": "geometry.fill",
+		"stylers": [{
+			"color": "#ffffff"
+		}]
+	},
+	{
+		"featureType": "road.highway",
+		"elementType": "geometry.stroke",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "road.highway",
+		"elementType": "labels.icon",
+		"stylers": [{
+			"visibility": "on"
+		}]
+	},
+	{
+		"featureType": "road.arterial",
+		"elementType": "geometry.fill",
+		"stylers": [{
+				"saturation": "0"
+			},
+			{
+				"lightness": "0"
+			},
+			{
+				"gamma": "1"
+			},
+			{
+				"visibility": "on"
+			},
+			{
+				"color": "#f2f6fc"
+			}
+		]
+	},
+	{
+		"featureType": "road.arterial",
+		"elementType": "geometry.stroke",
+		"stylers": [{
+				"lightness": "-10"
+			},
+			{
+				"color": "#adb9cc"
+			}
+		]
+	},
+	{
+		"featureType": "road.arterial",
+		"elementType": "labels.icon",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "road.local",
+		"elementType": "geometry.fill",
+		"stylers": [{
+			"color": "#ebf1fa"
+		}]
+	},
+	{
+		"featureType": "road.local",
+		"elementType": "labels.text",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "road.local",
+		"elementType": "labels.icon",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "transit",
+		"elementType": "geometry.fill",
+		"stylers": [{
+				"hue": "#005eff"
+			},
+			{
+				"saturation": "50"
+			},
+			{
+				"lightness": "0"
+			}
+		]
+	},
+	{
+		"featureType": "transit",
+		"elementType": "labels",
+		"stylers": [{
+			"visibility": "on"
+		}]
+	},
+	{
+		"featureType": "transit",
+		"elementType": "labels.icon",
+		"stylers": [{
+			"visibility": "off"
+		}]
+	},
+	{
+		"featureType": "water",
+		"elementType": "geometry.fill",
+		"stylers": [{
+			"color": "#73c2ff"
+		}]
+	}
+]

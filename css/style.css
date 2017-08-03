@@ -1,0 +1,244 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    font-family: 'EB Garamond', serif;
+}
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #f39c12;
+    transition: 0.2s ease-in;
+    position: fixed;
+    z-index: 999;
+}
+.fa-bars,
+.fa-times {
+    margin-top: 22px;
+    padding-left: 1%;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.fa-bars:before {
+    color: #ecf0f1;
+    font-size: 23px;
+    outline: none;
+}
+.fa-times:before {
+    color: #ecf0f1;
+    font-size: 23px;
+    outline: none;
+}
+.off-canvas-box {
+    margin-top: 69px;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    background-color: #d35400;
+    width: 250px;
+    margin-left: -250px;
+    transition: 0.2s ease-in;
+}
+/* toggling classes */
+
+.null-margin {
+    margin-left: 0;
+}
+.add-margin {
+    margin-left: 260px;
+}
+.pomegranate-color {
+    background-color: #c0392b;
+}
+.off-canvas-color {
+    background-color: #73C2FF !important;
+    color: #000 !important;
+}
+/*--------------------*/
+
+.center-button {
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+    vertical-align: middle;
+    margin-left: 1%;
+    margin-bottom: 9px;
+    background-color: #B28B70;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+    /*--Code pasted from :http://www.cssmatic.com/box-shadow-*/
+    
+    -webkit-box-shadow: 3px 7px 33px -5px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 3px 7px 33px -5px rgba(0, 0, 0, 0.64);
+    box-shadow: 3px 7px 33px -5px rgba(0, 0, 0, 0.64);
+}
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-top: 3px;
+    text-align: center;
+    color: #fff;
+}
+.single-row {
+    width: 100%;
+}
+.search-field {
+    border: none;
+    width: 80%;
+    height: 18px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    float: left;
+    outline: none;
+    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    color: #554c45;
+}
+.fa-filter:before {
+    color: #fff;
+    margin-left: -1%;
+    padding-right: 8px;
+}
+.filter-div {
+    background-color: rgb(72, 150, 211);
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    font-weight: 500;
+    padding: 0;
+    border: none;
+    width: 20%;
+    color: #fff;
+    outline: none;
+}
+.places-filter-options {
+    visibility: hidden;
+    width: 40%;
+    position: absolute;
+    list-style-type: none;
+    background-color: #fff;
+    padding: 0;
+    margin-top: -12%;
+    margin-left: 100%;
+    text-align: center;
+    border: 1px solid rgba(85, 76, 69, 0.5);
+    border-left: none;
+}
+/*---General purpose color classes--- */
+
+.red-color-class {
+    background-color: #F75448;
+    color: #fff;
+}
+.blue-color-class {
+    background-color: #73c2ff;
+    color: #fff;
+}
+/*---------------------------------------*/
+
+.places-filter-options li {
+    display: block;
+}
+.places-filter-options li:hover {
+    cursor: pointer;
+}
+.places-list-restaurants,
+.places-list-bars {
+    color: #fff;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+.places-list-restaurants {
+    margin-top: 17%;
+}
+.bars {
+    background-color: #73c2ff;
+    color: #fff;
+}
+.restaurants {
+    background-color: #F75448;
+    color: #fff;
+}
+.places-list-restaurants li,
+.places-list-bars li {
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.places-list-restaurants li:hover {
+    background-color: #F75448;
+    cursor: pointer;
+    color: #000;
+}
+.places-list-bars li:hover {
+    background-color: #73c2ff;
+    color: #000;
+    cursor: pointer;
+}
+/*---Code pasted from "https://stackoverflow.com/questions/7381446/center-html-input-text-field-placeholder"----- */
+
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+}
+:-ms-input-placeholder {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+}
+#map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*--------InfoWindow content styling---------*/
+
+.infoWindow-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+.infoWindow-content {
+    color: #C0392B;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 7%;
+}
+.facebookLink:visited {
+    color: blue;
+}
+.api-mention:visited {
+    color: blue;
+}
+.place-picture {
+    width: 201px;
+    height: 120px;
+    float: left;
+    padding-right: 10px;
+}
