@@ -21,7 +21,7 @@ __Python 3__ :
 __Python 2__ :
 --python -m SimpleHTTPServer 8080
 
-- click the index.html file to open the page
+- click the index.html file to open the page or click the following link to access it online: https://zimann.github.io/Neighborhood-map/
 - clicking the __hamburger button__ will slide in a full linked list of the represented places
 - clicking a marker will display a facebook link for that place and an image within roughly the same context will be fetched and placed alongside it.
 - clicking a list item on the left will automatically take us to that marker and the information window will appear
